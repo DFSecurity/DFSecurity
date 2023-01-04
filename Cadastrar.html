@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title> Cadastrar-se | DFSecurity </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/Cadastrar.css">
+	<link rel="icon" type="text/css" href="images/DFSecurity.png">
+    <script type="text/javascript" src="JavaScript/CalculationCPF.js"> </script>
+</head>
+<br>
+<body>
+<div class="LoginRegistrar">
+    <h2> <a class="CadastrarRegistrar" href="Cadastrar.html" id="alternate" onmouseover="over ();" onmouseout="out ();"> Cadastrar ou Registrar-se </a> </h2>
+    <br>
+    <input class="Nome" type="text" placeholder="Nome">
+    <input class="Sobrenome" type="text" placeholder="Sobrenome">
+    <br> <br>
+    <div>
+        <input class="CPFCadastrar" id="myCPF" type="text" placeholder="CPF" onblur="verifyCPF (this);" maxlength="14" onkeydown="formatMask (this, meuCPF);">
+        <input class="DataNascimento" type="date" placeholder="Data de nascimento">
+        <br> <br>
+        <span id="cpfResponse"> </span>
+    </div>
+    <br>
+    <input class="Email" type="text" placeholder="E-mail">
+    <br> <br>
+    <input class="SenhaLogin" type="password" placeholder="Senha">
+    <br> <br>
+    <div class="button1"> <a href="Home.html"> <button> Registrar-se </button> </a> </div> 
+    <div class="button2"> <a href="LoginRegistrar.html"> <button> Já tenho uma conta </button> </a> </div> 
+    <br> <br>
+    <hr align="left"> <br>
+    <div class="options">
+        <left> <a href="Home.html"> <h9 id="alternate1" onmouseover="over1 ();" onmouseout="out1 ();"> Home </h9> </a> |      
+        <a href="Contato.html"> <h9 id="alternate2" onmouseover="over2 ();" onmouseout="out2 ();"> Contato </h9> </a> | 
+        <a href="TermosDeUso.html"> <h9 id="alternate3" onmouseover="over3 ();" onmouseout="out3 ();"> Termos de uso </h9> </a> </left>
+    </div>
+<script>
+
+    function over () {
+        document.getElementById ("alternate").style.color = "white";
+    }
+
+    function out () {
+        document.getElementById ("alternate").style.color = "#2185d0";
+    }
+
+</script>
+<script>
+
+    function over1 () {
+        document.getElementById ("alternate1").style.color = "white";
+    }
+
+    function out1 () {
+        document.getElementById ("alternate1").style.color = "darkgrey";
+    }
+
+</script>
+<script>
+
+    function over2 () {
+        document.getElementById ("alternate2").style.color = "white";
+    }
+
+    function out2 () {
+        document.getElementById ("alternate2").style.color = "darkgrey";
+    }
+
+</script>
+<script>
+
+    function over3 () {
+        document.getElementById ("alternate3").style.color = "white";
+    }
+
+    function out3 () {
+        document.getElementById ("alternate3").style.color = "darkgrey";
+    }
+
+</script>
+</div>
+</body>
+</html>

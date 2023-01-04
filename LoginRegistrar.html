@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title> Login / Registrar | DFSecurity </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/LoginRegistrar.css">
+	<link rel="icon" type="text/css" href="images/DFSecurity.png">
+    <script type="text/javascript" src="JavaScript/Alternatecolors.js"> </script>
+    <script type="text/javascript" src="JavaScript/CalculationCPF.js"> </script>
+</head>
+<br>
+<body>
+<div class="LoginRegistrar">
+    <h2> <a class="Acessesuaconta" href="LoginRegistrar.html" id="alternate" onmouseover="over ()" onmouseout="out ()"> Acesse sua conta </a> </h2>
+    <br>
+    <input class="Email" id="myCPF" type="text" placeholder="CPF" onblur="verifyCPF (this);" maxlength="14" onkeydown="formatMask (this, meuCPF);">
+    <div>
+        <br>
+    </div>
+        <span id="cpfResponse"> </span>
+    <div>
+        <br>
+    </div>
+    <input class="SenhaLogin" type="password" placeholder="Senha">
+    <br> <br>
+    <div class="button1"> <a href="Home.html"> <button> Login </button> </a> </div> 
+    <div class="button2"> <a href="Cadastrar.html"> <button> Não tenho conta </button> </a> </div> 
+    <br> <br>
+    <hr> <br>
+    <div class="Esqueceusuasenha">
+        <a href="Esqueceusuasenha.html" id="alternate1" onmouseover="over1 ();" onmouseout="out1 ();"> Esqueceu sua senha? </a>
+    </div>
+</div>
+</body>
+</html>
