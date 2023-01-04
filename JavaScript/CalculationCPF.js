@@ -13,8 +13,7 @@ function whatCPF (count) {
     var salt = 0;
 
     for (inner = 1; inner <= 9; inner++) 
-        
-		salt = salt + parseInt (count [inner - 1]) * (11 - inner);
+	salt = salt + parseInt (count [inner - 1]) * (11 - inner);
         read = (salt * 10) % 11;
 
     if ((read == 10) || (read == 11))
