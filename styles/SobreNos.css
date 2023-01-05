@@ -2,30 +2,29 @@
 /* CSS */
 
 body {
-	background-color: blueviolet;
-	text-align: justify;
+    background-color: blueviolet;
+    text-align: justify;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 h4 {
-	font-size: 30px;
+    font-size: 30px;
 }
 
 .text {
-	color: darkred;
-	width: 450px;
-	padding: 25px;
-	border-radius: 15px;
-	font-size: 18px;
-	background: black;
-	font-family: arial;
+    color: darkred;
+    width: 450px;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 18px;
+    background: black;
+    font-family: arial;
 }
 
 .by {
-	font-size: 16px;
-	color: darkgray;
-	font-family: arial;
+    font-size: 16px;
+    color: darkgray;
+    font-family: arial;
 }
-
