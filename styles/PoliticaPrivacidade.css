@@ -2,25 +2,25 @@
 /* CSS */
 
 body {
-	background-color: blueviolet;
-	text-align: justify;
+    background-color: blueviolet;
+    text-align: justify;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 hr {
-	border: 2px solid darkred;
+    border: 2px solid darkred;
 }
 
 .text {
-	color: darkred;
-	width: 669px;
-	padding: 25px;
-	border-radius: 15px;
-	font-size: 17px;
-	background: violet;
-	font-family: arial;
+    color: darkred;
+    width: 669px;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 17px;
+    background: violet;
+    font-family: arial;
 }
 
 a:link {
@@ -48,7 +48,7 @@ a:visited {
 }
 
 .by {
-	font-size: 16px;
-	color: darkgrey;
-	font-family: arial;
+    font-size: 16px;
+    color: darkgrey;
+    font-family: arial;
 }
